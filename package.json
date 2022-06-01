@@ -1,0 +1,19 @@
+{
+  "name": "decrypt-pgp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fixo",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "3.0.0",
+    "openpgp": "5.1.0",
+    "prompt-sync": "4.2.0",
+    "stdio": "2.1.1"
+  }
+}
